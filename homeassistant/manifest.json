@@ -1,0 +1,9 @@
+{
+  "domain": "baby_tracker",
+  "name": "Baby Tracker",
+  "version": "1.0.0",
+  "documentation": "https://example.com/baby_tracker_docs",
+  "requirements": ["requests"],
+  "codeowners": ["@ryank157"],
+  "config_flow": true
+}

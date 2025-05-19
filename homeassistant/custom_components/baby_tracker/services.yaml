@@ -1,0 +1,15 @@
+record_event:
+  description: Records a baby-related event.
+  fields:
+    event_type:
+      description: The type of event (feeding, diaper, nap, etc.).
+      example: feeding
+      required: true
+    timestamp:
+      description: The timestamp of the event (ISO format).
+      example: "2023-10-27T10:00:00+00:00"
+      required: true
+    details:
+      description: Any additional details about the event.
+      example: "4 ounces"
+      required: false
